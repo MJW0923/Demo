@@ -1,0 +1,108 @@
+html,
+body,
+div,
+ul,
+li,
+p,
+footer,
+header,
+article,
+a,
+b,
+em,
+nav,
+form,
+input,
+textarea,
+select,
+button,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+        outline: none;
+}
+
+body {
+    font: 0.14rem/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #040404;
+    background: #eee;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* IOS禁止微信调整字体大小 */
+    -webkit-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+    -moz-text-size-adjust: 100% !important;
+}
+
+header,
+nav,
+footer,
+article {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+    outline-width: 0;
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+.scrolling {
+    overflow-y: scroll!important;
+    -webkit-overflow-scrolling: touch!important;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+#root{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.am-input-extra{
+    max-height: 100%!important;
+}
